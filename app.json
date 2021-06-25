@@ -1,0 +1,43 @@
+{
+    "name": "Wolf Music UserBot",
+    "description": "Official Wolf Userbot to play musicin Groups Voice Chats",
+    "logo": "https://avatars.githubusercontent.com/u/86453443?v=4",
+    "keywords": [
+        "Music",
+        "VC Player",
+        "Telegram Bot",
+        "Wolf Bot"
+    ],
+    "website": "https://t.me/GreyWolfXD",
+    "repository": "https://github.com/TheGreyWolfXD/GreyMusicUserBot",
+    "success_url": "https://t.me/AboutGreyWolfXD",
+    "env": {
+        "STRING_SESSION": {
+            "description": "pyrogram string session from https://replit.com/@SpEcHiDe/GenerateStringSession",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "API Hash from my.telegram.org",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "APP ID from my.telegram.org",
+            "value": ""
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
