@@ -27,5 +27,11 @@ Use it play music in Groups Voice Chat.
 ## Join me
 [Join @AboutGreyWolfXD](https://t.meAboutGreyWolfXD)
 
+## Credits 
+- [Pyrogram](https://github.com/pyrogram/pyrogram)
+- [Tgcalls](https://github.com/MarshalX/tgcalls)
+- [tgvc-userbot](https://github.com/callsmusic/tgvc-userbot)
+- [William Butcher Bot](https://github.com/thehamkercat/WilliamButcherBot)
+- [ImJanindu](https://github.com/ImJanindu)
 
 ## Adding more features soon
